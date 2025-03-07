@@ -1,0 +1,14 @@
+path: /home/cpelabpc2/Documents/Northern Corn Leaf Blight.v2i.yolov8
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Northern-Corn-Leaf-Blight']
+
+roboflow:
+  workspace: plant-disease-detection-nlys0
+  project: northern-corn-leaf-blight-4kmka
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plant-disease-detection-nlys0/northern-corn-leaf-blight-4kmka/dataset/2
